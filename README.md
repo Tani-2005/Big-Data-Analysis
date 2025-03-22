@@ -1,13 +1,19 @@
 # BIG DATA ANALYSIS
 
 **COMPANY**: CODTECH IT SOLUTIONS
+
 **NAME**: TANYA DEEP
+
 **INTERN ID**: CT08WBB
+
 **DOMAIN**: DATA ANALYSIS
+
 **DURATION**: 4 WEEKS
+
 **MENTOR**: NEELA SANTOSH
 
 **DESCRIPTION**
+
 This Python script performs a simplified air quality data analysis using Dask, demonstrating its capability to handle potentially large datasets. It begins by loading the "Air_Quality.csv" file into a Dask DataFrame and then proceeds to clean the "Data Value" column by converting it to numeric type and removing rows with missing values. The core analysis involves calculating the average "Data Value" for each "Geo Place Name" using Dask's groupby and mean functions, with the .compute() method triggering the actual distributed computation. The results are then visualized using a bar chart created with Plotly, showcasing the average air quality values across different locations. To highlight Dask's scalability, the script includes a performance comparison against Pandas. It calculates the same average values using Pandas and Dask, recording the execution time for each. This comparison demonstrates Dask's potential efficiency gains when dealing with larger datasets, as it leverages parallel processing and out-of-core computation.
 
 Data Loading and Cleaning: Loads the CSV into a Dask DataFrame, converts the "Data Value" column to numeric, and drops rows with missing values.
@@ -16,6 +22,7 @@ Data Visualization: Creates a bar chart using Plotly to display the calculated a
 Performance Comparison: Measures and prints the execution time for the same analysis performed with both Pandas and Dask, showcasing Dask's efficiency.
 
 **Output**
+
 Dataset Loaded Successfully!
 Columns: Index(['Unique ID', 'Indicator ID', 'Name', 'Measure', 'Measure Info',
        'Geo Type Name', 'Geo Join ID', 'Geo Place Name', 'Time Period',
