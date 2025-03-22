@@ -85,3 +85,8 @@ Name: Data Value, Length: 114, dtype: float64
 ⏳ Comparing Dask vs Pandas Performance...
 ✅ Pandas Time: 0.09453105926513672 s
 ✅ Dask Time: 0.11007571220397949 s
+
+
+![Image](https://github.com/user-attachments/assets/5fda758c-d16b-4f4e-9d0c-a1a121c2ec91)
+
+![Image](https://github.com/user-attachments/assets/a5d272e7-bb62-405c-8c0b-362ac18496d5)
