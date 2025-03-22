@@ -123,8 +123,7 @@ Bayside Little Neck-Fresh Meadows       15.822222
 Bayside and Little Neck (CD11)          17.996364
 
 Bedford Stuyvesant (CD3)                19.417273
-
-                                          ...    
+ 
 West Queens                             19.915985
 
 Williamsbridge and Baychester (CD12)    17.220909
